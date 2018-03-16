@@ -34,8 +34,7 @@ gulp.task("default", function(){
 
     gulp.watch(PATHS.JS.SRC, ['js']);
     gulp.watch(PATHS.CSS.SRC, ['css']);
-
-
+    
 });
 
 gulp.task("js", function(){
